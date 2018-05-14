@@ -84,7 +84,12 @@ false
    X Y -> false)
 
  (same "aze" "aze")
- (same 2 3))
+ (same 2 3)
+
+ \\ free varibles
+ (define g X -> (+ X (protect Y)))
+
+ )
 
 \\ loading code ------------------------------------------
 
